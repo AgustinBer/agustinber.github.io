@@ -34,10 +34,10 @@
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
-    --black: #000;
-    --pink: #ff3258;
+    --black: rgba(0, 0, 0, 0.938);
+    --pink: #0d0081;
     --white: #f0e9f2;
-    --white-1: #e5e5e6da;
+    --white-1: #e5e5e6ea;
 
 
     --container-max-width: 1180px;
@@ -405,7 +405,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('./images/background.jpeg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -511,7 +511,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .client__logos {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     filter: invert(100%) grayscale(100%) opacity(.8);
 }
 
