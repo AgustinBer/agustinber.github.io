@@ -456,7 +456,7 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: 25rem;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 400px) {
     .work__box:not(:last-child) {
         margin-bottom: 20rem;
     }
@@ -492,16 +492,16 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-@media(min-width: 901px) {
+@media(min-width: 400px) {
     .work__image-box {
         flex: 1;
         margin: 0 0 0 10rem;
     }
 }
 
-@media(max-width: 900px) {
+@media(max-width: 500px) {
     .work__code {
-        height: 4rem;
+        height: 3rem;
     }
 }
 
